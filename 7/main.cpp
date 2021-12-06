@@ -16,6 +16,6 @@ int main(){
         }
         if(f) {cout<<a[i];return 0;}
     }
-
+    cout<<"NU EXISTA";
     return 0;
 }
