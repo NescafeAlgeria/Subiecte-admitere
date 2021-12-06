@@ -14,7 +14,7 @@ int main(){
     }
     int x,i=1;
     cin>>x;
-    while(v[i]<x) i++;
+    while(v[i]<x && i<=n) i++;
     for(int j=n+1;j>i;j--){
         v[j]=v[j-1];
     }
