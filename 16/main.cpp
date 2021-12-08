@@ -1,6 +1,9 @@
-#include <iostream>
+#include <fstream>
 
 using namespace std;
+
+ifstream cin("numere.in");
+ofstream cout("numere.out");
 
 int main(){
     int n;
